@@ -7,15 +7,15 @@ GracityCave-MVC-Dynamic-Paging
 <br>
 
 <h2>Installing and Using it....</h2>
-    1. Search for GracityCave_MVCDynamicPaging in Nuget. nad install it.
+    1. Search for GracityCave_MVCDynamicPaging in Nuget. and install it.
     2. In your view page include AngularJS and bootstrap css.
-         copy below code to view:
+         Example, copy below code to view:
             <script src='http://code.angularjs.org/1.1.0/angular.min.js'></script>
             <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap.no-icons.min.css"
                       rel="stylesheet">
             <link href="http://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css" rel="stylesheet">  
             
-    3.Delete all auto generate code by visual studio in IEnumerable/IQueryable VIew. And add this line
+    3.Delete all auto generate code by visual studio in IEnumerable/IQueryable VIew. And add these line
                         
             @using GravityCave_MVCDynamicPaging
             @Html.MVCDyanmicPaging(Model)
